@@ -1,0 +1,63 @@
+/* Photo */
+header{
+    padding: 30px;
+    background: rgb(47 75 112);
+}
+.photo{
+    margin: auto;
+    border: 5px solid white;
+}
+/* Text */
+.text{
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+}
+.text h1{
+    font-size: 55px;
+}
+@media (max-width:992px) {
+    header{
+        background: #3c4d64 ;
+        padding: 15px;
+    }
+    .text{
+        text-align: center !important;
+    }
+    .text h1{
+        text-align: center !important;
+    }
+    .text h5{
+        text-align: center !important;
+    }
+}
+/* Info */
+.identite{
+    padding: 25px;
+}
+.identite h2{
+    font-weight: bold;
+    color: rgb(47 75 112) !important;
+}
+.identite h4{
+    font-weight: bold;
+    color: rgb(47 75 112) !important;
+}
+.identite h4 span{
+    font-weight: normal;
+    color: black !important;
+}
+.diver{
+    background: rgb(47 75 112);
+    padding: 25px;
+}
+.diver h2{
+    color: white;
+    font-weight: bold;
+}
+.diver h4{
+    color: black;
+}
+.diver i{
+    color: white;
+}
